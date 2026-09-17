@@ -1,9 +1,9 @@
 <?php
 
-// $name = "Ajay";
-// $age = 65;
-// $height = 5.2;
-// $isStudent = false;
+$name = "Ajay";
+$age = 65;
+$height = 5.2;
+$isStudent = false;
 
 
 // echo "My name is " . $name . PHP_EOL;
