@@ -89,3 +89,26 @@
 $calculateTotal = fn($price, $quantity) => $price * $quantity;
 
 echo $calculateTotal(500, 3) . PHP_EOL;
+
+// Static and Global Variables
+
+$name = "Ajay";
+
+function introduce()
+{
+      global $name ;
+     echo $name . PHP_EOL;
+}
+
+function countVisits()
+{
+      static $count = 0;
+      $count++;
+      echo $count . PHP_EOL;
+}
+
+introduce();
+
+countVisits();
+countVisits();
+countVisits();
