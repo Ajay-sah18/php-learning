@@ -86,11 +86,11 @@
 
 //ARROW FUNCTIONS
 
-$calculateTotal = fn($price, $quantity) => $price * $quantity;
+// $calculateTotal = fn($price, $quantity) => $price * $quantity;
 
-echo $calculateTotal(500, 3) . PHP_EOL;
+// echo $calculateTotal(500, 3) . PHP_EOL;
 
-// Static and Global Variables
+// // Static and Global Variables
 
 $name = "Ajay";
 
@@ -112,3 +112,4 @@ introduce();
 countVisits();
 countVisits();
 countVisits();
+
