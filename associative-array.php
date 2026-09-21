@@ -69,27 +69,80 @@
 
 // echo $students["student2"]["name"];
 
-$products = [
-"Electronic" => [
-    "name" => "Fan",
-    "price" => 2300
-],
-"Cosmetic" => [
-    "name" => "Hair Oil",
-    "price" => 225
-]
+// $products = [
+// "Electronic" => [
+//     "name" => "Fan",
+//     "price" => 2300
+// ],
+// "Cosmetic" => [
+//     "name" => "Hair Oil",
+//     "price" => 225
+// ]
 
+// ];
+
+// // echo $products["Electronic"] ["name"] . " : " .  $products["Electronic"] ["price"] . PHP_EOL;
+// // echo $products["Cosmetic"]["name"] . PHP_EOL;
+
+// // echo $products["Cosmetic"]["price"];
+
+// foreach($products as $key => $value) {
+//     // echo $value["name"] . " : " . $value["price"] . PHP_EOL;
+// //    echo $products["Electronic"]["name"]  . PHP_EOL;
+// // echo $products["Cosmetic"]["name"] . PHP_EOL;
+
+// echo $value["name"] . PHP_EOL;
+//     }
+
+//Learn array_keys in PHP.
+$boys = [
+  "student1" => [
+  "name" => "Ajay",
+  "age" => 23
+],
+"student2" => [
+    "name" => "Abishek",
+    "age" => 25
+  ],
+   "student3" => [
+    "name" => "Nitesh",
+    "age" => 24
+  ],
+   "student4" => [
+    "name" => "Nischal",
+    "age" => 22
+  ],
+   "student5" => [
+    "name" => "Suman",
+    "age" => 26
+  ],
 ];
 
-// echo $products["Electronic"] ["name"] . " : " .  $products["Electronic"] ["price"] . PHP_EOL;
-// echo $products["Cosmetic"]["name"] . PHP_EOL;
+// $result = array_keys($boys);
 
-// echo $products["Cosmetic"]["price"];
+// print_r($result);
 
-foreach($products as $key => $value) {
-    // echo $value["name"] . " : " . $value["price"] . PHP_EOL;
-//    echo $products["Electronic"]["name"]  . PHP_EOL;
-// echo $products["Cosmetic"]["name"] . PHP_EOL;
+// foreach(array_keys($boys) as $key) {
+//     echo $key . PHP_EOL;
+// };
 
-echo $value["name"] . PHP_EOL;
-    }
+$result = array_values($boys);
+
+print_r($result);
+
+foreach(array_values($boys) as $value) {
+    print_r($value)  . PHP_EOL;
+}
+
+
+$array1 = [
+    "name" => "Ajay"
+];
+
+$array2 = [
+    "name" => "Nitesh"
+];
+
+$result = array_merge($array1, $array2);
+
+print_r($result);
