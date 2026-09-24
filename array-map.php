@@ -18,5 +18,5 @@
 
 // print_r($newPrices);
 
-// Learn Array_Filter
+
 
