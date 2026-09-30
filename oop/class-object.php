@@ -108,3 +108,7 @@ echo $Product1->category;
 echo $Product2->name;
 echo $Product2->price;
 echo $Product2->category;
+
+
+
+//Practicing Git clone
