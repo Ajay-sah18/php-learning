@@ -93,7 +93,6 @@ class Product
 $Product1 = new Product();
 $Product2 = new Product();
 
-$Product1->name = "Desktop";
 $Product1->price = 20000;
 $Product1->category = "Android";
 
