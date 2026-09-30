@@ -49,33 +49,63 @@
 
 //Practice 3
 
-class Job 
+// class Job 
+// {
+//     public $title;
+//     public $company;
+//     public $location;
+//     public $salary;
+// }
+
+// $Job1 = new Job();
+// $Job2 = new Job();
+
+// $Job1->title = "PHP Developer";
+// $Job1->company = "ABC Company";
+// $Job1->location = "Biratnagar";
+// $Job1->salary = 30000;
+
+// $Job2->title = "Laravel Developer";
+// $Job2->company = "XYZ Company";
+// $Job2->location = "Janakpur";
+// $Job2->salary = 50000;
+
+// echo $Job1->title;
+// echo $Job1->company;
+// echo $Job1->location;
+// echo $Job1->salary;
+
+// echo $Job2->title;
+// echo $Job2->company;
+// echo $Job2->location;
+// echo $Job2->salary;
+
+
+//Practice 4
+
+class Product 
 {
-    public $title;
-    public $company;
-    public $location;
-    public $salary;
+    public $name;
+    public $price;
+    public $category;
 }
 
-$Job1 = new Job();
-$Job2 = new Job();
+$Product1 = new Product();
+$Product2 = new Product();
 
-$Job1->title = "PHP Developer";
-$Job1->company = "ABC Company";
-$Job1->location = "Biratnagar";
-$Job1->salary = 30000;
+$Product1->name = "Mobile";
+$Product1->price = 20000;
+$Product1->category = "Android";
 
-$Job2->title = "Laravel Developer";
-$Job2->company = "XYZ Company";
-$Job2->location = "Janakpur";
-$Job2->salary = 50000;
+$Product2->name = "Apple";
+$Product2->price = 50000;
+$Product2->category = "Iphone";
 
-echo $Job1->title;
-echo $Job1->company;
-echo $Job1->location;
-echo $Job1->salary;
+echo $Product1->name;
+echo $Product1->price;
+echo $Product1->category;
 
-echo $Job2->title;
-echo $Job2->company;
-echo $Job2->location;
-echo $Job2->salary;
+
+echo $Product2->name;
+echo $Product2->price;
+echo $Product2->category;
