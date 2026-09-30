@@ -109,6 +109,3 @@ echo $Product2->name;
 echo $Product2->price;
 echo $Product2->category;
 
-
-
-//Practicing Pull Request
