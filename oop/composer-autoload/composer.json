@@ -1,0 +1,17 @@
+{
+    "name": "ajay/composer-autoload",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ajay\\ComposerAutoload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ajay-Sah18",
+            "email": "ajaysah1374@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
